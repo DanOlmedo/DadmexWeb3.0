@@ -39,7 +39,105 @@
   /* Media queries section */
 
   @media (max-width: 1000px) {
-    .main {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+
+    #mobile-nav {
+        display: block;  
+        margin-top: 1rem;      
+    }
+
+    #mainnav {
         display: none;
     }
+
+    header {
+        padding-top: 2rem;
+        margin-top: -2rem;
+    }
+
+    .top-banner {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .top-banner #dmx-logo {
+        width: auto;
+        height: 7vw;
+        margin-top: -1rem;
+        margin-left: -1rem;
+
+    }
+
+    .top-banner #dmx-logo-simple {
+        display: inline;
+
+    }
+}
+
+  @media (max-width: 1000px) {
+
+    .marcas {
+        display: none;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .main .alt-nav-parent {
+        display: none;
+    }
+
+    .main .main-banner {
+        background-image: linear-gradient(to left,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.95)),url(./img/FotoShoot/DMX_02.jpg);
+        background-position-y: center;
+        background-position-x: right;
+        } 
+
+    .main .main-banner h1 {
+        display: none;
+    } 
+
+    .main .main-banner-text p {
+        font-size: 7vw;
+    }
+
+    .main .main-banner-text button {
+        width: 50%;
+    }
+
+    .prod-row {
+        flex-direction: column;
+    }
+
+    #prod-flip {
+        flex-direction: column-reverse;
+    }
+
+    .prod-row p {
+        display: none;
+    }
+
+    .prod-row img {
+        height: auto;
+        width: 60vw;
+    }
+
+    .destacados {
+        display: none;
+    }
+
+    .vid-promo {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
 }

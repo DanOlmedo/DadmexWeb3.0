@@ -25,6 +25,15 @@ header {
     z-index: 1
 }
 
+.top-banner #dmx-logo-simple {
+    display: none;
+    height: 35vw;
+    width: auto;
+    position: absolute;
+    left: -5%;
+    top: -11vw;
+}
+
 .top-banner {
     padding: 1.5rem;
     background-color: white;
@@ -36,6 +45,7 @@ header {
 .top-banner #dmx-logo {
     height: 2rem;
     width: auto;
+    
 }
 
 .main .title {
@@ -43,6 +53,15 @@ header {
     margin-top: 1.5rem;
     font-size: 3rem;
     color: var(--col1);
+}
+
+#mobile-nav {
+    display: none;
+}
+
+#mobile-nav img {
+    height: 2rem;
+    width: auto;
 }
 
 #mainnav .nav-link {
