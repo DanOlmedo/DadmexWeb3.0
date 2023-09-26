@@ -48,7 +48,11 @@
 
     #mobile-nav {
         display: block;  
-        margin-top: 1rem;      
+        margin-top: 1rem;     
+    }
+
+    #mobile-nav button {
+        background-color: var(--col2);
     }
 
     #mainnav {
@@ -81,10 +85,7 @@
 
   @media (max-width: 1000px) {
 
-    .marcas {
-        display: none;
-    }
-
+    
     .main {
         overflow: hidden;
     }
@@ -111,6 +112,18 @@
         width: 50%;
     }
 
+    .destacados #destacados-2 {
+        display: none; 
+    }
+
+    .destacados  #destacados-3 {
+        display: none; 
+    }
+
+    .destacados #destacados-4{
+        display: none; 
+    }
+
     .prod-row {
         flex-direction: column;
     }
@@ -128,15 +141,48 @@
         width: 60vw;
     }
 
-    .destacados {
+    /* .marcas {
+        margin: 1rem;
+    } */
+
+    .vid-promo {
+        /* display: none; */
+    }
+
+    #vidform p {
         display: none;
     }
 
-    .vid-promo {
-        display: none;
+    #vidform iframe {
+        width: 120%;
+        height: 45vw;
     }
 
     footer {
+        width: 80%;
+    }
+
+    footer .footer-col-1{
+        width: 80%;
+    }
+
+    footer .footer-col-1 #dmx-logo{
+        height: auto;
+        width: 50vw;
+    }
+
+    footer .footer-col-1 .redes img{
+        height: 1rem;
+        width: auto;
+        margin: 1rem;
+        display: none;
+    }
+
+    footer .footer-col-2{
+        display: none;
+    }
+
+    footer .footer-col-3{
         display: none;
     }
 

@@ -43,9 +43,8 @@ header {
 }
 
 .top-banner #dmx-logo {
-    height: 2rem;
+    height: 3rem;
     width: auto;
-    
 }
 
 .main .title {
@@ -84,7 +83,7 @@ header {
 .alt-nav {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 .banner h1 {
