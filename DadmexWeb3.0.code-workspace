@@ -1,16 +1,8 @@
 {
 	"folders": [
 		{
+			"name": "DadmexWeb3.0",
 			"path": "."
-		},
-		{
-			"path": "../../DadmexWeb_2023/catalogo"
-		},
-		{
-			"path": "../../DadmexWeb_2023/FotoShoot"
-		},
-		{
-			"path": "../../DadmexWeb_2023/img"
 		}
 	],
 	"settings": {}

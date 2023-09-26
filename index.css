@@ -117,7 +117,7 @@ header {
     margin-top: -1rem;
     background-color: white;
     /* background-image: linear-gradient(to left,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.95)),url("./img/fotos/DMX_03.jpg"); */
-    background-image: linear-gradient(to left,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.95)),url(./img/fotos/DMX_02.jpg);
+    background-image: linear-gradient(to left,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.95)),url(./FotoShoot/DMX_02.jpg);
     height: 82vh;
     background-size: cover;
     background-position-y: center ;
