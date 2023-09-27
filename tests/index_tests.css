@@ -491,7 +491,7 @@ footer h1 {
 }
 
 .carousel-slide img {
-    width: 100%;
+    width: calc(100% / 4); /* Adjust this for the number of images to show initially */
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -499,6 +499,4 @@ footer h1 {
 button {
     margin-top: 10px;
     cursor: pointer;
-    background-color: blue;
 }
-
