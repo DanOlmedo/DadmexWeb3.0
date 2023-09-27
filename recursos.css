@@ -1,0 +1,85 @@
+.recursos-main {
+    padding-top: 6rem;
+}
+
+.recursos-main h1 {
+    color: var(--col1);
+}
+
+.recursos-banner {
+    display: flex;
+}
+
+.recursos-banner-text {
+    background-color: var(--col1);
+    transform: skewX(-25deg);
+    padding-left: 30vw;
+    margin-left: -7rem;
+}
+
+.recursos-banner-text h3 {
+    transform: skewX(25deg);
+    font-size: 1.5rem;
+    color: var(--col2);
+    position: relative;
+    left: -85%;
+    top: 7vh;
+    width: 150%;
+}
+
+.recursos-banner-img {
+    background-image: url(./img/SankyoTodo.JPG);
+    height: 20vh;
+    width: 80vw;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.recursos-banner-text-end {
+    background-color: var(--col1);
+    transform: skewX(-25deg);
+    padding-left: 20vw;
+    margin-right: -5rem;
+}
+
+.recursos-banner-text-end h3 {
+    transform: skewX(25deg);
+    font-size: 1.5rem;
+    color: var(--col2);
+    position: relative;
+    left: -50%;
+    top: 7vh;
+    width: 100%;
+}
+
+.recursos-documentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recurso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+
+.recurso img {
+    height: 10vh;
+    width: auto;
+}
+
+ .recurso h1 {
+    font-size: 1.5rem;
+}
+
+ .recurso p {
+    font-size: 1rem;
+}
+
+.recursos {
+    display: flex;
+}

@@ -4,7 +4,7 @@
 }
 
 .main h1 {
-    color: black;
+    color: var(--col1);
 }
 
 .catalogo-banner {
