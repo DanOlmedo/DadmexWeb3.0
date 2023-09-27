@@ -1,0 +1,99 @@
+.nosotros-main {
+    padding-top: 6rem;
+}
+
+.nosotros-info {
+    background-image: linear-gradient(var(--col1),black,var(--col1));
+}
+
+.nosotros-main h1 {
+    color: black;
+
+}
+
+.nosotros-1 {
+    background-color: white;
+    background-image: linear-gradient(to left,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)),url("./img/cilindros.png");
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: contain;
+    background-position: center;
+    margin-top: -1rem;
+    
+}
+
+.nosotros-1 h1 {
+    color: var(--col1);
+    font-size: 4rem;
+}
+
+.nosotros-1 h3 {
+    font-size: 3rem;
+    color: var(--col1);
+    text-justify:inter-word;
+}
+
+.nosotros-2 h1, h3{
+    color: white;
+    margin: 3rem;
+}
+
+.nosotros-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nosotros-3 h1, h3{
+    color: white;
+    margin: 3rem;
+}
+
+.nosotros-3 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nosotros-4 h1, h3{
+    color: white;
+    margin: 3rem;
+}
+
+.nosotros-4 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nosotros-5 h1, h3{
+    color: white;
+    margin: 3rem;
+}
+
+.nosotros-5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotros-text {
+    width: 60%;
+}
+
+.nosotros-text-clientes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros-5 .hex {
+    height: 50rem;
+    margin: auto;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}

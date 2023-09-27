@@ -1,0 +1,9 @@
+.responsabilidad-main {
+    padding-top: 6rem;
+    background-image: linear-gradient(var(--col1),black,var(--col1));
+
+}
+
+.responsabilidad-main h1 {
+    color: black;
+}

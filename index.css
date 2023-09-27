@@ -25,14 +25,6 @@ header {
     z-index: 1
 }
 
-.top-banner #dmx-logo-simple {
-    display: none;
-    height: 35vw;
-    width: auto;
-    position: absolute;
-    left: -5%;
-    top: -11vw;
-}
 
 .top-banner {
     padding: 1.5rem;
@@ -62,6 +54,7 @@ header {
     height: 2rem;
     width: auto;
 }
+
 
 #mainnav .nav-link {
     color: var(--col1);
@@ -421,9 +414,9 @@ footer h1 {
  }
 
 .footer-col-1 #dmx-logo {
-    height: 2rem;
+    height: 3rem;
     width: auto;
-    margin: 1rem;
+    
 }
 
 .footer-col-1 p {
