@@ -1,9 +1,43 @@
 .responsabilidad-main {
     padding-top: 6rem;
-    background-image: linear-gradient(var(--col1),black,var(--col1));
-
+    background-image: linear-gradient(var(--col1),var(--col1));
 }
 
-.responsabilidad-main h1 {
-    color: black;
+.resp-social {
+    /* background-color: var(--col1); */
+    display: flex;
+}
+
+.resp-social-text {
+    margin: 2rem;
+}
+
+.resp-social h1 {
+    color: var(--col2);
+    font-size: 2.5rem;
+}
+
+.resp-social p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.resp-social img {
+    height: auto;
+    width: 100%
+}
+
+.sostenibilidad-text {
+    margin: 2rem;
+}
+
+.sostenibilidad-text h1 {
+    color: var(--col2);
+    font-size: 3rem;
+}
+
+.sostenibilidad-text p {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
 }
