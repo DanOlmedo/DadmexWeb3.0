@@ -1,7 +1,32 @@
-.contacto-main {
+.red-main {
     padding-top: 6rem;
 }
 
-.contacto-main h1 {
-    color: black;
+.red-main {
+    display: flex;
+    background-color: var(--col1);
+    
+}
+
+.red-main-text {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.red-main h1 {
+    color: var(--col2);
+    font-size: 3rem;
+}
+
+.red-main p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.red-mapa {
+    background-color: white;
+    width: 72vw;
+    padding-top: 3rem;
 }
