@@ -7,6 +7,16 @@
     color: var(--col1);
 }
 
+.catalogo-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo-main h1 {
+    margin: 1rem;
+}
+
 .catalogo-banner {
     display: flex;
 }
@@ -47,7 +57,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 25%;
+    justify-content: center;
+    width: 33%;
+    text-align: center;
+    text-justify: inter-word;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.categoria:hover {
+    background-color: var(--col1);
 }
 
 .categoria img {
@@ -91,6 +112,7 @@
     margin-right: -5rem;
     background-size: cover;
     background-position-y: center;
+    background-position-x: left;
     display: flex;
     align-items: center;
     justify-content: left;
