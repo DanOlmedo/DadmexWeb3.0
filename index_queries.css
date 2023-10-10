@@ -159,11 +159,15 @@
     }
 
     footer {
-        width: 80%;
+        width: 100%;
     }
 
     footer .footer-col-1{
-        width: 80%;
+        width: 100%;
+    }
+
+    footer .footer-col-1 h2{
+        font-size: 1.5rem;
     }
 
     footer .footer-col-1 #dmx-logo{
@@ -186,4 +190,7 @@
         display: none;
     }
 
+    .footer-end {
+        display: none;
+    }
 }
