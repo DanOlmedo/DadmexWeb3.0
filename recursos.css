@@ -1,5 +1,6 @@
 .recursos-main {
     padding-top: 6rem;
+    overflow: hidden;
 }
 
 .recursos-main h1 {
@@ -86,7 +87,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    
 }
 
 .recursos-title {
