@@ -1,6 +1,7 @@
 .responsabilidad-main {
     padding-top: 6rem;
     background-image: linear-gradient(var(--col1),var(--col1));
+    margin-bottom: -2rem;
 }
 
 .resp-social {
