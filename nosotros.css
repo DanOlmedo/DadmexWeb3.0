@@ -93,19 +93,16 @@
     background-color: var(--col1);
     height: 60vh;
     /* transform: skewX(-25deg); */
-    margin-left: 0;
-    margin-right: -7vw;
-    padding-right: 20vw;
-    padding-left: 4vw;
-    width: 100%;
+    
+    width: 60%;
 }
 
 .nosotros-banner-bottom-text h1 {
     /* transform: skewX(25deg); */
     font-size: 2.5rem;
     color: var(--col2);
+    margin: 2rem;
     margin: 1rem;
-    margin-left: 0;
 }
 
 .nosotros-banner-bottom-text p {
@@ -113,14 +110,16 @@
     font-size: 1.5rem;
     color: white;
     margin-left: 0;
-    width: 130%;
+    width:80%;
+    margin: 2rem;
 }
 
 .nosotros-banner-bottom-img {
-    background-image: url(./img/clients_1.png);
+    background-image: url(./img/tier1s.PNG);
     height: 60vh;
     width: 100%;
     background-size: cover;
     background-position-y: center;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
