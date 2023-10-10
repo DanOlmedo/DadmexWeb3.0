@@ -396,14 +396,14 @@ footer {
     background-color: var(--col4);
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
 .footer-cols {
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer h1 {
@@ -412,6 +412,7 @@ footer h1 {
 
 .footer-col-1  {
     margin: 1rem;
+    margin-left: 2rem;
     width: 33%;
  }
 
@@ -421,10 +422,29 @@ footer h1 {
     
 }
 
+.footer-col-1 h2 {
+    font-size: 2rem;
+    width: 100%;
+    margin: 1rem;
+    color: var(--col1);
+}
+
+.footer-col-1 h3 {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 1rem;
+    margin-top: 2.5rem;
+    color: var(--col1);
+}
+
 .footer-col-1 p {
     font-size: 1.5rem;
     width: 70%;
     margin: 1rem;
+}
+
+.footer-col-1 .redes {
+    margin-top: 2rem;
 }
 
 .footer-col-1 .redes img{
@@ -435,7 +455,14 @@ footer h1 {
 
 .footer-col-2  {
    margin: 1rem;
-   width: 40%;
+   width: 33%;
+}
+
+.footer-col-2 h3 {
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 1rem;
+    color: var(--col1);
 }
 
 .footer-col-2 p {
@@ -446,7 +473,7 @@ footer h1 {
 
 .footer-col-3  {
     margin: 1rem;
-    width:30%;
+    width:33%;
 }
 
 .footer-col-3 ul {
@@ -455,8 +482,13 @@ footer h1 {
 
 
 .footer-col-3 li {
-    font-size: 1.25rem;
-    margin: 0.3rem; 
+    font-size: 1.5rem;
+    margin-top: 0.5rem; 
+}
+
+.footer-col-3 a {
+    text-decoration: none;
+    color: var(--col1);
 }
 
 .footer-end { 
