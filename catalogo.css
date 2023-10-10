@@ -65,10 +65,15 @@
     margin-bottom: 1rem;
     padding-bottom: 2rem;
     border-radius: 0.5rem;
+    transition: 0.25s;
 }
 
 .categoria:hover {
     background-color: var(--col1);
+}
+
+.categoria:hover h1 {
+    color: var(--col2);
 }
 
 .categoria img {

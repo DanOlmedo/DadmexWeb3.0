@@ -46,6 +46,10 @@
         margin-top: 2rem;
     }
 
+    .dropdown-menu {
+        background-color: var(--col1);
+    }
+
     #mobile-nav {
         display: inline;  
         margin-top: 1rem;     
@@ -53,6 +57,14 @@
 
     #mobile-nav button {
         background-color: var(--col2);
+    }
+
+    #mobile-nav a {
+        background-color: var(--col1);
+        color: var(--col2);
+        font-size: 1.6rem;
+        padding: 1rem;
+        transition: 0.5s;
     }
 
     #mainnav {

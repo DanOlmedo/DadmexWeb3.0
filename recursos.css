@@ -66,6 +66,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 20%;
+    transition: 0.5s;
 }
 
 .recurso img {
@@ -81,6 +82,10 @@
 
  .recurso p {
     font-size: 1rem;
+}
+
+.recurso:hover {
+    transform: scale(1.15);
 }
 
 .recursos {

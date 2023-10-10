@@ -189,26 +189,6 @@ header {
     background-color: var(--col1);
 }
 
-.hex-box {
-    display: flex;
-    justify-content: center;
-    transition: all 1s;
-}
-
-.hex {
-    height: 23rem;
-    margin: auto;
-    padding-left: 1rem;
-}
-
-/* .hex-box:hover {
-    transform: scale(1.2);
-} */
-
-#Capa_1 {
-    fill: none;
-}
-
 .destacados {
     display: flex;
     flex-direction: column;
@@ -234,27 +214,17 @@ header {
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     transition: 1s;
 }
 
 .destacados-slide h1 {
     color: var(--col1);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem;
     transition: 1s;
 }
 
-.destacados-slide p {
-    color: var(--col1);
-    font-size: 1.75rem;
-    transition: 1s;
-    width: 5rem;
-    position: absolute;
-    left: 17%;
-    text-wrap: wrap;
-    visibility: hidden;
-}
 
 .destacados-slide img {
     height: 15rem;
