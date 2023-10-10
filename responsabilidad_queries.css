@@ -1,0 +1,30 @@
+@media (max-width: 1000px) { 
+
+    .sostenibilidad-text {
+        margin: 1rem;
+    }
+
+    .resp-social-text {
+        margin: 1rem;
+    }
+
+    .resp-social h1 {
+        font-size: 2rem;
+    }
+
+    .sostenibilidad-text h1 {
+        font-size: 2rem;
+    }
+
+    .resp-social p {
+        font-size: 1rem;
+    }
+
+    .sostenibilidad-text p {
+        font-size: 1rem;
+    }
+
+    .sostenibilidad-text p {
+        padding-bottom: 2rem;
+    }
+};

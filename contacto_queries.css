@@ -1,0 +1,18 @@
+@media (max-width: 1000px) { 
+
+    .red-main {
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+    .red-main p {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .red-mapa {
+        height: auto;
+        width: 110vw;
+        margin-left: -2rem;
+    }
+};
