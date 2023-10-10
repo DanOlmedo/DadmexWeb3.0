@@ -1,0 +1,56 @@
+@media (max-width: 1000px) { 
+
+    .catalogo-banner-text {
+        margin: 0rem;
+        transform: skewX(0);
+        padding: 0;
+    }
+
+    .catalogo-banner-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .catalogo-banner-text h3 {
+        transform: skewX(0);
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 1.5rem;
+    }
+
+    .catalogo-banner-img { 
+        margin: 0;
+        display: none;
+    }
+
+    .catalogo-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categorias-catalogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalogo-banner-bottom-img {
+        display: none;
+    }
+
+    .catalogo-banner-bottom-text {
+        transform: skewX(0);
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .catalogo-banner-bottom-text h3 {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: skewX(0);
+        font-size: 2rem;
+        color: var(--col2);
+        margin: 1.5rem;
+    }
+}
