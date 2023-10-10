@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(66, 80, 117,0.8);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.outter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.window {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(66, 80, 117,1);
+    margin: 3rem;
+    padding: 3rem;
+
+}
+
+.item-card {
+    background-color: white;
+    padding: 4rem;
+    margin: 2rem;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-card h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+button {
+    height: 50%;
+    width: 5vw;
+}
