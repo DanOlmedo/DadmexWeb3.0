@@ -26,14 +26,6 @@ function changeText(){
 
 title1.addEventListener("mouseover",changeText);
 
-let cards = document.querySelectorAll('.item-card');
+const cards = document.getElementsByClassName('item-card');
 
-cards.forEach((card) => {
-    card.addEventListener('mouseover', function(){
-        card.classList.add('hover-bg');
-    });
-
-    card.addEventListener('mouseout', function(){
-        card.classList.remove('hover-bg')
-    })
-})
+cards.addEventListener("click",changeText())
