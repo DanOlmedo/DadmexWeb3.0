@@ -89,6 +89,10 @@
     font-size: 1rem;
 }
 
+.categoria a {
+    text-decoration: none;
+}
+
 .catalogo-banner-bottom {
     display: flex;
 }
