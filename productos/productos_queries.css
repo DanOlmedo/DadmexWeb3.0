@@ -1,0 +1,24 @@
+@media (max-width: 1000px) { 
+
+    .main-componentes {
+        overflow: hidden;
+    }
+
+    .main-componentes h1 {
+        font-size: 2rem;
+    }
+
+    .linea-componentes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+
+}
