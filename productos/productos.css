@@ -32,11 +32,15 @@
     font-size: 2rem;
     background-color: white;
     color: var(--col1);
+    white-space: nowrap;
 }
 
 .producto p {
     font-size: 1.25rem;
     color: var(--col1);
+    text-justify:inter-word;
+    text-align: center;
+    margin: 0.5rem;
 }
 
 .producto img {
