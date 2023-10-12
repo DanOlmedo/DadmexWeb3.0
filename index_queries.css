@@ -40,6 +40,10 @@
 
   @media (max-width: 1000px) {
 
+    :root {
+        overflow-x: hidden;
+    }
+
     header {
         display: flex;
         justify-content: space-around;
