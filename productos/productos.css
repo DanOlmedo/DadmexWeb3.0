@@ -16,6 +16,7 @@
 
 .linea-componentes {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .producto {

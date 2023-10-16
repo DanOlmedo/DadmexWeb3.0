@@ -131,30 +131,34 @@
     .destacados #destacados-1 {
         display: inline; 
         margin: 0.5rem;
-        max-width: 45%;
-        height: 30vh;
+       
     }
 
     .destacados #destacados-2 {
         display: inline; 
         margin: 0.5rem;
-        max-width: 45%;
-        height: 30vh;
+        
     }
 
     .destacados-slide {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        width: 45%;
+        height: 32vh;
     }
 
     .destacados-slide h1 {
         height: 3rem;
+        text-align: center;
+        text-justify: inter-word;
+        padding-right: 2vh;
     }
 
     .destacados-slide img {
         height: auto;
-        max-width: 100%;
+        width: 100%;
+        margin: 0.5rem;
+        padding-right: 4vh;
     }
 
     .destacados  #destacados-3 {
