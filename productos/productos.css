@@ -16,12 +16,13 @@
 
 .linea-componentes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 90%;
 }
 
 .producto {
     height: auto;
-    width: 30%;
+    width: 100%;
     margin: 2rem;
     display: flex;
     flex-direction: column;
@@ -45,6 +46,6 @@
 }
 
 .producto img {
-    height: auto;
-    width: 80%;
+    height: 35vh;
+    width: auto;
 }
