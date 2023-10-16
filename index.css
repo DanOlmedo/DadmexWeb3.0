@@ -450,12 +450,13 @@ footer h1 {
 
 .footer-col-3 ul {
     list-style: none;
+    
 }
 
 
 .footer-col-3 li {
     font-size: 1.5rem;
-    margin-top: 0.5rem; 
+    margin: 1rem 0;
 }
 
 .footer-col-3 a {
