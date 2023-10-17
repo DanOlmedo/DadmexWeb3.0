@@ -22,19 +22,21 @@
 
 .producto {
     height: auto;
-    width: 100%;
     margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 1rem;
+    align-content: space-evenly;
+    width: 24vw;
 }
 
 .producto h1 {
     font-size: 2rem;
     background-color: white;
     color: var(--col1);
-    white-space: nowrap;
+    border-radius: 1rem;
 }
 
 .producto p {
@@ -46,6 +48,24 @@
 }
 
 .producto img {
-    height: 35vh;
+    height: 20vw;
+    max-width: 22vw;
     width: auto;
+}
+
+.producto a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.producto:hover {
+    background-color: var(--col1);
+}
+
+.producto:hover h1 {
+    color: var(--col2);
+    background-color: var(--col1);
 }

@@ -144,21 +144,22 @@
         display: flex;
         flex-direction: column;
         width: 45%;
-        height: 32vh;
+        height: 65vw;
+        margin: 8vw 0;
     }
 
     .destacados-slide h1 {
-        height: 3rem;
+        max-height: 3rem;
         text-align: center;
         text-justify: inter-word;
-        padding-right: 2vh;
+        padding-right: 5vw;
     }
 
     .destacados-slide img {
         height: auto;
         width: 100%;
         margin: 0.5rem;
-        padding-right: 4vh;
+        padding-right: 8vw;
     }
 
     .destacados  #destacados-3 {

@@ -42,6 +42,7 @@
         transform: skewX(0);
         padding-left: 0;
         margin-right: 0;
+        
     }
 
     .catalogo-banner-bottom-text h3 {
@@ -49,8 +50,9 @@
         left: 0;
         top: 0;
         transform: skewX(0);
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: var(--col2);
-        margin: 1.5rem;
+        margin: 1.25rem;
+        max-width: 90%;
     }
 }
