@@ -187,13 +187,20 @@
         width: 60vw;
     }
 
-    /* .marcas {
-        margin: 1rem;
-    } */
-
-    .vid-promo {
-        /* display: none; */
+    .logos-marcas img {
+        height: auto;
+        width: 50vw;
     }
+
+    .logos-marcas #UniorLogo {
+        width: 100%;
+    }
+
+    .logos-marcas #OmpiLogo ,#BezabalaLogo ,#mpiLogo {
+        height: 40vw;
+        width: auto;
+    }
+    
 
     #vidform p {
         display: none;
@@ -206,6 +213,10 @@
 
     footer {
         width: 100%;
+    }
+
+    .footer-cols {
+        flex-direction: column;
     }
 
     footer .footer-col-1{
@@ -222,21 +233,29 @@
     }
 
     footer .footer-col-1 .redes img{
-        height: 1rem;
+        height: 8vw;
         width: auto;
         margin: 1rem;
-        display: none;
     }
 
     footer .footer-col-2{
-        display: none;
+        width: 70vw;
     }
 
     footer .footer-col-3{
-        display: none;
+        width: 80vw;
     }
 
-    .footer-end {
-        display: none;
+    .footer-end { 
+        height: 5rem;
+        display: flex;
+        justify-content: space-around;
+        margin-left: -0.9rem;
+        margin-right: -0.9rem;
+    }
+
+    footer .footer-end .navbar-text {
+        margin: 0.25rem;
+       
     }
 }
